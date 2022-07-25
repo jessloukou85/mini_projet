@@ -1,0 +1,1 @@
+create table client(id_client int AUTO_INCREMENT, last_name VARCHAR(15) not null, first_name VARCHAR(15) not null, town VARCHAR(15) not null, address VARCHAR(15) not null, phone VARCHAR(15) not null, mail VARCHAR(15) not null, constraint pk_client PRIMARY KEY (id_client));

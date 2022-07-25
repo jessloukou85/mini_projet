@@ -1,0 +1,1 @@
+create table produit (ref_prod VARCHAR(5) NOT NULL, designation VARCHAR(50), prix INT NOT NULL,constraint pk_produit PRIMARY KEY (ref_prod));
