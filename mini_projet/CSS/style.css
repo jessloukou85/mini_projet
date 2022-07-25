@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.lk{
+    height: 600px;
+    background-color: cadetblue;
+}
+.kl{
+    height: 500px;
+    background-color: red;
+}
+.jl{
+    background-color: aqua;
+    min-height: 100px;
+    margin-left: 40px;
+}
+
+.navbar{
+    background-color:yellowgreen;
+}
+.btn-lk{
+    width: 150px;
+    background-color: rgb(0, 255, 21);
+    text-align: center;
+}
+.carousel-item{
+width: 200px;
+height: 300px;
+margin-left: 500px;
+}

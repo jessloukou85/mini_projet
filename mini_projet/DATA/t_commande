@@ -1,0 +1,1 @@
+create table commande(num_cmde INT AUTO_INCREMENT, date_commande DATETIME, id_client INT, constraint pk_commande PRIMARY KEY (num_cmde), constraint fk_commande_client foreign key (id_client) REFERENCES client (id_client) on delete set NULL on update CASCADE);
