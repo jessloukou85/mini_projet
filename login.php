@@ -5,7 +5,7 @@ session_start();
    if(isset($_POST['connexion'])){
        if(!empty($_POST['speudo']) and !empty($_POST['password'])){
          $default_speudo = 'admin';
-         $default_password ='admin12345';
+         $default_password ='admin1234';
 
          $speudo = htmlspecialchars($_POST['speudo']);
          $pwd = htmlspecialchars($_POST['password']);
