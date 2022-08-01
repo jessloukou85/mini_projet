@@ -1,0 +1,3 @@
+create database gestion_commerciale_2022;
+
+use gestion_commerciale_2022;

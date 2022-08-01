@@ -1,0 +1,1 @@
+create table membre (id int auto_increment, speudo varchar(20) not null, constraint pk_membre primary key (id));

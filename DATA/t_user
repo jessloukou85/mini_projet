@@ -1,5 +1,1 @@
-create database gestion_commerciale_2022;
-
-use gestion_commerciale_2022;
-
 create table user(id_user int AUTO_INCREMENT, last_name VARCHAR(20)NOT NULL, first_name VARCHAR(25)NOT NULL, date_of_birth datetime, speudo varchar(20) not null, mail varchar(30) not null, password varchar(25) not null, date_inscription datetime, constraint pk_user primary key (id_user) );
