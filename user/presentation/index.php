@@ -1,25 +1,25 @@
 <?php
 session_start();
 if(!$_SESSION['password']){
- header('location: ../../login.php');
+  header('location: ../../login.php');
 }
-  setcookie('lang','fr',time()+3600*24*365,null,null,false,true);
+setcookie('lang','fr',time()+3600*24*365,null,null,false,true);
 
-    include "../../DATA/cnxion.php";
-?>
-
- <?php include "navbar.php"; ?> 
+include "../../DATA/cnxion.php";
+include "navbar.php";  
+    ?>
  <nav class="nav">
-    <ul class="nav">
-      <li class="nav-item">
-        <a href="users.php" class="btn btn-info" role="button">se connecter</a>
+   <ul class="nav">
+     <li class="nav-item">
+       <a href="../../login.php" class="btn btn-info" role="button">se connecter</a>
       </li>
       <li class="nav-item">
         <a href="../user/compt_user.php" class="btn btn-info" role="button">creer un compte</a>
       </li>
     </ul>
- </nav>
+  </nav>
  <a href="../membre/membre.php">afficher tous les membres</a>
+ <a href="../membre/publier_article.php">pubier un article</a>
  <div class="row">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">

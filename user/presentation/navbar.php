@@ -21,13 +21,13 @@
           <a class="nav-link active" aria-current="page" href="../client/client.php">Nos Clients</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../produit/produit.php">Nos Produits</a>
+          <a class="nav-link active" href="../produit/produit.php">Nos Produits</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Nos Commandes</a>
+          <a class="nav-link active" href="../">Nos Commandes</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Nos Listes de Commandes</a>
+          <a class="nav-link active" href="#">Nos Listes de Commandes</a>
         </li> 
       </ul>
       <form class="d-flex" role="search">

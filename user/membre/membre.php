@@ -1,4 +1,5 @@
 <?php 
+$msg = '';
     session_start();
     include '../../DATA/cnxion.php';
     if(!$_SESSION['password']){
@@ -15,14 +16,13 @@
     <title>membres</title>
 </head>
 <body>
+    <h3 align="center" style="color:green;"><?php echo $msg; ?></h3>
     <p align="center">les membres de la table membre</p>
     <table border="1" align="center">
-        
-        <?php 
-        
+        <?php    
         while($membre = $recup_membres->fetch()){
             ?>
-            <tr><td><?= $membre['speudo'] ?><a href="delete.php?id=<?= $membre['id'] ?>"> delete</a></td></tr>
+            <tr><td><?= $membre['speudo'] ?><a href="bannir.php?id=<?= $membre['id']; ?>" style="color:red; text-decoration: none">bannir un membre</a></td></tr>
             <?php
         }    
         ?>

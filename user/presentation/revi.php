@@ -16,3 +16,22 @@ if(isset($_POST['connexion'])){
         $msg = " veuillez remplir tous les champs";
     }
 }
+
+session_start();
+$_SESSION = [];
+session_destroy();
+header('Location : new_page.php');
+
+
+$sql = 'SELECT * from table_name';
+$genres = ($cnx->query($sql));
+while($genre=$genres->fetch()){
+     ?>
+     <tr>
+        <td>
+            <?= $genre['speudo'] ?>
+        </td>
+     </tr>
+     <?php
+};
+?>
