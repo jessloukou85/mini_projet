@@ -1,0 +1,1 @@
+create table article(id int AUTO_INCREMENT, title VARCHAR(150) not null,content TEXT ,constraint pk_article PRIMARY KEY(id));
